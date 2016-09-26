@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4CE1EF6B-339B-4885-96C5-6F2E2F219AF9}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AzureWebAppsDemo", "src\AzureWebAppsDemo\AzureWebAppsDemo.xproj", "{15D729ED-9DBF-4330-959B-8A724927DE37}"
