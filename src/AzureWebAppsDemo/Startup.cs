@@ -29,6 +29,9 @@ namespace AzureWebAppsDemo
         {
             // Add framework services.
             services.AddMvc();
+
+            // Add DI
+            services.AddSingleton<IConfiguration>(this.Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
