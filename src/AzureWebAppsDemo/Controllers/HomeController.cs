@@ -12,7 +12,7 @@ namespace AzureWebAppsDemo.Controllers
     {
         private IConfiguration config;
 
-        public HomeController(IConfiguration config, ILogger<HomeController> logger)
+        public HomeController(IConfiguration config)
         {
             this.config = config;
         }
